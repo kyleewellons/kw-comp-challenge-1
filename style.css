@@ -13,8 +13,9 @@
   filter: alpha(opacity=30);
 }
 
+
 .box1 {
-  background-color: #31D8A7;
+  background-color: #E4FF70;
   width: 66.5%;
   text-align: center;
 
@@ -39,7 +40,7 @@
 } 
 
 .box5 {
-  background-color: #0FCF71 ;
+  background-color: #31D8A7 ;
 }
 
 .box6 {
