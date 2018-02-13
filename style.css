@@ -2,18 +2,22 @@
 
 .box {
   width: 33.33%;
-/*  height:250px;*/
   vertical-align: middle;
   text-align: center;
-/*  flex-basis: 60%;*/
+  
+  
+}
 
+.box:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
 }
 
 .box1 {
   background-color: #31D8A7;
   width: 66.5%;
   text-align: center;
-  /*height:250px;*/
+
 }
 
 .box2 {
@@ -51,15 +55,11 @@
 }
 
 .box9 {
-  /*display: inline-flex;*/
+  
   float: top right;
   width:410px;
-  /*height:100vh;*/
-  /*position: absolute;*/
-  /*top: 8px;*/
-  /*right: 25px;*/
   background-image: url(Images/Jai2.jpg)
-  /*background-repeat: no-repeat;*/
+  
 }
 
 .wrapper {
@@ -67,12 +67,9 @@
 }
 
 .container1 {
-  /*background-color: blue*/
-  /*border: 1px solid ;*/
   display:flex;
   flex-wrap: wrap;
   width: 65%;
-  /*height:100vh;*/
   justify-content: left;
   align-items: flex-end;
   line-height: 280px;
@@ -93,13 +90,7 @@
 
 
 
-
-
-
-
-
-
-
+  
 
 
 
